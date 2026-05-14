@@ -1,0 +1,16 @@
+# Build outputs
+/bin/
+/dist/
+*.test
+coverage.out
+coverage.html
+*.prof
+*.pprof
+
+# Local workspace/editor noise
+.DS_Store
+.idea/
+.vscode/
+
+# Go checksum files are release inputs.
+!go.sum
